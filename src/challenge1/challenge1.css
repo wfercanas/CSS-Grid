@@ -1,0 +1,23 @@
+body {
+  padding-left: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-auto-columns: 100px;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+.item {
+  border: 5px solid #00bcd4;
+  background-color: lightblue;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 4px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
