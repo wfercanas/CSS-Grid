@@ -1,0 +1,9 @@
+body {
+  padding-left: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.comment {
+  color: gray;
+  font-style: italic;
+}
