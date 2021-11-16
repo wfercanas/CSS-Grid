@@ -8,7 +8,6 @@ main {
   margin: 0 5rem;
 }
 
-
 .subtitle {
   text-align: center;
   text-transform: uppercase;
@@ -102,3 +101,34 @@ main {
   }
 }
 
+@media screen and (max-width: 768px) {
+  main {
+    margin: 0 2rem;
+  }
+
+  .subtitle {
+    margin-top: 0;
+  }
+
+  .hero {
+    grid-template-columns: minmax(300px, 500px);
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .dishes {
+    grid-template-columns: repeat(auto-fit, 150px);
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(auto-fit, 250px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    margin: 0 1rem;
+  }
+}
