@@ -1,3 +1,8 @@
+main {
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+
 .container {
   border: 5px solid #e1bee7;
   background-color: #fff1ff;
